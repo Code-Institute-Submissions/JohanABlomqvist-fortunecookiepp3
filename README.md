@@ -1,7 +1,7 @@
 # Fortune Cookie App
 Simple App made with python that interacts with google sheets takes fortunes preapplied into it and saves the name and fortune given into the document.
 
-![Responsice Mockup](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/ef117cb00cada755013ccd118ebfc6a35db46ebf/assets/images/responsive.PNG)
+![Responsice Mockup](/workspace/fortunecookiepp3/assets/images/responsice.PNG)
 
 [View Fortune Cookie App on the live website](https://fortunecookiepp3.herokuapp.com/)
 
