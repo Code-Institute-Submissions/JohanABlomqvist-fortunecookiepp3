@@ -1,7 +1,7 @@
 # Fortune Cookie App
 Simple App made with python that interacts with google sheets takes fortunes preapplied into it and saves the name and fortune given into the document.
 
-![Responsice Mockup](/workspace/fortunecookiepp3/assets/images/responsice.PNG)
+![Responsice Mockup](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/58d2d6c4e88940adda6972a22fa83f92a45c5da7/assets/images/responsice.PNG)
 
 [View Fortune Cookie App on the live website](https://fortunecookiepp3.herokuapp.com/)
 
@@ -30,18 +30,13 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 ### Returning visitor goals
 - More fortunes, more options.
 
-
 # Existing Features 
-
 
 - __Game page__
  
-  - The home page includes a picture of ships and sails in the background complete with  gamewindow's and grids.
-   - The aim is to give the user a positive experience while playing the game.
+  - Straight forward terminal fortune cookie app. tells you state your name to get a fortune in return.
 
-![Home Page](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/ef117cb00cada755013ccd118ebfc6a35db46ebf/assets/images/game-board.PNG)
-
-
+![Home Page](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/58d2d6c4e88940adda6972a22fa83f92a45c5da7/assets/images/appshow.PNG)
 
 
 # Features Left to Implement
@@ -71,21 +66,13 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 To fully test my website I did the following tests using different browsers (google chrome, mozilla firefox) and devices (Samsung s21pro).
 I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
 
-Links
-- Tested my social links on index.html, clicking popped out a new tab with the requested site as expected , both on mobile, mozilla, firefox, chrome and opera.
-Game
-- Tried completing the game on above said browsers and it did work like intended, clicked all the buttons and they also work like intended. 
-- Ship drag does work for mobile, did not have time to implement mobile viability into the game after squishing out bugs for a minimal working product.
-- Found a problem where you can click the start game button many times enabling the computer so shoot as many times as you clicked after each turn.
-so I made the button hide until ships are placed on the board and disappear again after being clicked. 
-
 # Technologies Used
 ## Languages Used
 - Python was used to create this website
 
 
 ## Frameworks, Media, Libraries & Programs Used
-
+- Heroku - To launch the terminal based app.
 - Git - For version control.
 - Github - To save and store the files for the website.
 - [Am I Responsive?](https://ui.dev/amiresponsive) - Used to make the mockup picture for the Readme.
