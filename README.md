@@ -3,7 +3,7 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 
 ![Responsice Mockup](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/58d2d6c4e88940adda6972a22fa83f92a45c5da7/assets/images/responsice.PNG)
 
-[View Fortune Cookie App on the live website](https://fortunecookiepp3.herokuapp.com/)
+[View Fortune Cookie App on the live Heroku website](https://fortunecookiepp3.herokuapp.com/)
 
 [View Fortune Cookie App on Github pages](https://github.com/JohanABlomqvist/fortunecookiepp3/)
 # CONTENTS
@@ -44,18 +44,12 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 - None as of now
 
 # Testing and Bugs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- Had problems when trying to get google sheets to communicate with python properly for the app, upon further inspection I had not set up my scopes in my code properly, managed to get that in and working after a few tries.
+- Authentication set up to google sheets API was not set properly and json file was not properly introduced to the python or directory here. 
 - 
 
 ## Unfixed bugs
-- 
-- 
+- None that I know of.
 
 # Validator Testing 
 
@@ -63,8 +57,7 @@ Simple App made with python that interacts with google sheets takes fortunes pre
   -  
 
 ## Full testing
-To fully test my website I did the following tests using different browsers (google chrome, mozilla firefox) and devices (Samsung s21pro).
-I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+In the testing phase I tried breaking the app in any way I could think of, empty input, spaces, using !"#%¤# letter, number for example. I just get wrong input, please try again. so I think I made it foolproof, but I could be wrong. I did this in both the name in-put and the y/n prompts. 
 
 # Technologies Used
 ## Languages Used
@@ -81,7 +74,7 @@ I went through each page using google chrome developer tools to ensure that they
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 - Log in (or sign up) to Github.
-- Find the repository for this project, Blackbeard-s-Revenge-PP2.
+- Find the repository for this project, fortunecookiepp3.
 - Click on the Settings link.
 - Click on the Pages link in the left hand side navigation bar.
 - In the Source section, choose main from the drop down select branch menu. Select Root - From the drop down select folder menu.
@@ -109,14 +102,8 @@ To clone the  design repository:
 
 ## Code Used
 - Readme help from [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md).
-- 
-- 
-- 
 ## Content
 - All the written content is done by Johan Blomqvist.
-## Media
-- 
-- 
 ## Acknowledgments
 - Chatgpt for being a good learningtool, asking it the right questions can give you alot of clarity on code and how to build it.
 - One of my friend's named Thomas Kjos that works in game development, giving alot of good feedback on what I need to work on.
