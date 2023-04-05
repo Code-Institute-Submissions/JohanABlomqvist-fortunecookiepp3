@@ -54,7 +54,15 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 # Validator Testing 
 
 - Python
-  -  
+- I get the following syntax error when running it through a python checker, but code work exactly like intended.
+ Syntax errors detected :
+
+Line 50:
+worksheet.update_cell(i, 10, f"{name}: {fortune}")
+^
+SyntaxError: invalid syntax
+
+  ![Python Code Checker](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/72a608f4066cb87909d829f2883079cbe13bde54/assets/images/syntax.PNG) 
 
 ## Full testing
 In the testing phase I tried breaking the app in any way I could think of, empty input, spaces, using !"#%¤# letter, number for example. I just get wrong input, please try again. so I think I made it foolproof, but I could be wrong. I did this in both the name in-put and the y/n prompts. 
