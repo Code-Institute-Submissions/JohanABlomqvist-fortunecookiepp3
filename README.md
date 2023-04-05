@@ -25,18 +25,14 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 
 ### First time visitor goals
 - Hopefully they see a fun app that is functional and serves it's purpose.
-- Clean website without clutter
+- Straight forward what to do within the app.
 
 ### Returning visitor goals
-- People coming back to play the game as I make improvements.
-- Them looking up on my new projects.
-- Clients or employers getting in contact.
+- More fortunes, more options.
+
 
 # Existing Features 
 
-- __Header__
-
-![Header of the page](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/d822e8b2d47dacdf278c6456b83c034cf0585967/assets/images/header.PNG)
 
 - __Game page__
  
@@ -46,61 +42,30 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 ![Home Page](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/ef117cb00cada755013ccd118ebfc6a35db46ebf/assets/images/game-board.PNG)
 
 
-- __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-  - Made the footer stay at the end of the page without forcing it to be stuck to the end of the page, think it fits in better that way.
-
-![Footer](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/d822e8b2d47dacdf278c6456b83c034cf0585967/assets/images/footer.PNG)
-
-- __Coloring__
-
-  - Made to fit the pirate overall feel of the website.
-
-![Coloring](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/97c1b61db23e47033d8caf303eda1af547d5dca1/assets/images/colors-used.PNG)
 
 # Features Left to Implement
 
-- A scan function every 3 rounds that scans 2x2 on the board
-- Framing in the gameboard properly
-- Fixing ship placing overlap.
+- None as of now
 
 # Testing and Bugs
-- Fixed a bug where I forgot to properly link my css style sheet to all my webpage.
-- Fixed typo in linking HTML page
-- CSS had alot of issues making the ripple effect for the boats, ended up realizing I missed the classList.add for the things 
-I wanted to make the ripples with in the Javascript. About 6 hours of intense staring at the screen wondering what was going on right there.
-- Spent countless hours on typos and aligning rows the wrong way in JavaScript
-- Using arrays and if else functions took me alot of trial and error, probably deleted the project 6 times before my braind wrapped around the basic concepts of it.
-- Had problem with function not working the way I intended, fixed by doing a if else statement, can be seen in the changelogs.
-- Had issue with event click on board, added a pointer-events: none; to the problem area, now you can shoot on the board like usual again.
-- Found a problem where you can click the start game button many times enabling the computer so shoot as many times as you clicked after each turn.
-so I made the button hide until ships are placed on the board and disappear again after being clicked. 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 ## Unfixed bugs
-- Ships can be placed ontop of eachother
-- mobile drag not fixed.
+- 
+- 
 
 # Validator Testing 
 
-- HTML
-  - Warns about empty heading that serves as a placer for text later. [W3C validator](https://validator.w3.org/nu/)
-  
-  ![HTML Check](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/3e5b35414f5310fee110636bf1bfa5354e7bc05f/assets/images/html-check.PNG)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-  
-  ![CSS Check](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/b0e27ed40184b01c625b23d9b40b33fdadbd1b2f/assets/images/CSScheck.PNG)
-
-- Lighthouse
-  - High percentages when running lighthouse, so I'm really happy about that.
-
-  ![Lighthouse check](https://github.com/JohanABlomqvist/Blackbeard-s-Revenge-PP2/blob/60c052f5fa71f77c161cbf419c0ab3928516a322/assets/images/Lighthouse.PNG)
-
-- JavaScript
-  -  Got warning's about missing semicolon's and  using const saying:'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-  Other then that no issues at all.
+- Python
+  -  
 
 ## Full testing
 To fully test my website I did the following tests using different browsers (google chrome, mozilla firefox) and devices (Samsung s21pro).
@@ -116,15 +81,13 @@ so I made the button hide until ships are placed on the board and disappear agai
 
 # Technologies Used
 ## Languages Used
-- HTML, CSS and JavaScript were used to create this website
+- Python was used to create this website
 
 
 ## Frameworks, Media, Libraries & Programs Used
 
 - Git - For version control.
 - Github - To save and store the files for the website.
-- Google Fonts - To import the fonts used on the website. Roboto (300) and Dancing Script (300) Alltho I mainly used Roboto for the whole page.
-- Font Awesome - For the iconography on the website. (Header navigation links and Footer icons)
 - [Am I Responsive?](https://ui.dev/amiresponsive) - Used to make the mockup picture for the Readme.
 
 # Deployment
@@ -142,14 +105,14 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 To fork the  design repository:
 
 - Log in (or sign up) to Github.
-- Go to the repository for this project, JohanABlomqvist/Blackbeard-s-Revenge-PP2.
+- Go to the repository for this project, JohanABlomqvist/fortunecookiepp3.
 - Click the Fork button in the top right corner..
 
 ### How to Clone
 To clone the  design repository:
 
 - Log in (or sign up) to GitHub.
-- Go to the repository for this project, JohanABlomqvist/Blackbeard-s-Revenge-PP2.
+- Go to the repository for this project, JohanABlomqvist/fortunecookiepp3.
 - Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -159,17 +122,17 @@ To clone the  design repository:
 
 ## Code Used
 - Readme help from [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md).
-- [Dev-Bowers](https://dev-bowers.com) for serving as an inspiration for the layout of my site.
-- [Web Dev Simplified](https://www.youtube.com/watch?v=G6JTM-zt-dQ) helping me with the css for the game.
-- [Code with Ania Kubów](https://youtu.be/Ubh_k18sX4E) Helped with the code for the game.
+- 
+- 
+- 
 ## Content
 - All the written content is done by Johan Blomqvist.
 ## Media
-- Midway AI for making the background picture.
-- Font Awesome for the nav icons and social icons.
+- 
+- 
 ## Acknowledgments
 - Chatgpt for being a good learningtool, asking it the right questions can give you alot of clarity on code and how to build it.
-- One of my friend's named Thomas Kjos that works in game development, alot of help and talk's with him over the last week.
+- One of my friend's named Thomas Kjos that works in game development, giving alot of good feedback on what I need to work on.
 - Lauren-Nicole, my mentor for all the support.
 - Kera Cudmore, for all the information about the Readme-file.
-- Stack Overflow for having great examples of JS and CSS working in tandem.
+- Stack Overflow for being the great repository it is, providing solutions and answers to questions regarding code.
