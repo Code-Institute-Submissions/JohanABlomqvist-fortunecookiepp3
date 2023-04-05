@@ -15,7 +15,6 @@ SHEET = GSPREAD_CLIENT.open('fortunecookiepp3')
 
 worksheet = SHEET.sheet1
 
-# Fetch fortunes from the Google Sheet (assuming they're in column A)
 fortunes = worksheet.col_values(1)
 
 def get_fortune():
