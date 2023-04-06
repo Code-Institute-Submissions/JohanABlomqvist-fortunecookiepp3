@@ -46,7 +46,7 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 # Testing and Bugs
 - Had problems when trying to get google sheets to communicate with python properly for the app, upon further inspection I had not set up my scopes in my code properly, managed to get that in and working after a few tries.
 - Authentication set up to google sheets API was not set properly and json file was not properly introduced to the python or directory here. 
-- 
+- Other then that I tried making an adventure game before this in 3 different iterations, failed all off them and felt I did not have time to fix syncing datasheet with the projects and get syntax errors and other issues in order. This was the easier option to make out of the options I had, but it work's. 
 
 ## Unfixed bugs
 - None that I know of.
@@ -54,7 +54,7 @@ Simple App made with python that interacts with google sheets takes fortunes pre
 # Validator Testing 
 
 - Python
-- I get the following syntax error when running it through a python checker, but code work exactly like intended.
+- I get the following syntax error when running it through a python checker, but code work exactly like intended without issues when running.
  Syntax errors detected :
 
 Line 50:
@@ -114,6 +114,7 @@ To clone the  design repository:
 ## Acknowledgments
 - Chatgpt for being a good learningtool, asking it the right questions can give you alot of clarity on code and how to build it.
 - One of my friend's named Thomas Kjos that works in game development, giving alot of good feedback on what I need to work on.
-- Lauren-Nicole, my mentor for all the support.
+- Lauren-Nicole, my mentor for all the support and helping with ideas and how to look for things that can break the app.
 - Kera Cudmore, for all the information about the Readme-file.
 - Stack Overflow for being the great repository it is, providing solutions and answers to questions regarding code.
+- Youtube for having alot of guides to how to's and codealongs, it is surely a resource that helps in magnificent ways.
