@@ -66,11 +66,11 @@ SyntaxError: invalid syntax
 
 ## Full testing
 In the testing phase I tried breaking the app in any way I could think of, empty input, spaces, using !"#%¤# letter, number for example. I just get wrong input, please try again. so I think I made it foolproof, but I could be wrong. I did this in both the name in-put and the y/n prompts. 
-
+Also friends from the course did some testing too and the document saved the testing they did when they did the correct inputs in the document like this
+![Python testing](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/da64f0bb2191ec0b7154e07ecd38bbc33d6e16b5/assets/images/test.PNG)
 # Technologies Used
 ## Languages Used
 - Python was used to create this website
-
 
 ## Frameworks, Media, Libraries & Programs Used
 - Heroku - To launch the terminal based app.
@@ -104,7 +104,6 @@ To clone the  design repository:
 - Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
 
 # Credits
 
