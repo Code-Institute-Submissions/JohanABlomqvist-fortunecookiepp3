@@ -18,9 +18,17 @@ worksheet = SHEET.sheet1
 fortunes = worksheet.col_values(1)
 
 def get_fortune():
+    """
+    Selects a random fortune from the list of fortunes.
+    
+    """
     return random.choice(fortunes)
 
 def print_fortune_cookie():
+    """
+    Prints a visual representation of a fortune cookie.
+    
+    """
     print("  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
     print("  ┃                             ┃")
     print("  ┃       Fortune Cookie        ┃")
@@ -28,6 +36,10 @@ def print_fortune_cookie():
     print("  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
 
 def get_valid_input(prompt, valid_choices):
+    """
+    Prompts the user for input until a valid input is provided.
+    
+    """
     while True:
         user_input = input(prompt).lower()
         if user_input in valid_choices:
@@ -36,6 +48,10 @@ def get_valid_input(prompt, valid_choices):
             print("Invalid input. Please try again.")
 
 def get_valid_name(prompt):
+    """
+    Prompts the user for a valid name containing only letters.
+    
+    """
     while True:
         name = input(prompt)
         if name.isalpha():
@@ -44,6 +60,10 @@ def get_valid_name(prompt):
             print("Please enter a valid name containing only letters.")
 
 def save_name_and_fortune_in_sheet(name, fortune):
+    """
+    Saves the user's name and fortune in the first empty cell of column 10.
+    
+    """
     for i in range(1, 301):
         cell_value = worksheet.cell(i, 10).value
         if not cell_value:
