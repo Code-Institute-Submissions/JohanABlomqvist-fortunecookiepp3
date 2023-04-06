@@ -62,4 +62,5 @@ while True:
 
     another_fortune = get_valid_input("Do you want to get another fortune? (y/n): ", ["y", "n"])
     if another_fortune != "y":
+        print("\nLive long & prosper.")
         break
