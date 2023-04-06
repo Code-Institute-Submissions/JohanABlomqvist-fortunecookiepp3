@@ -105,6 +105,15 @@ To clone the  design repository:
 - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
+### How to Deploy on heroku
+To deploy on heroku once logged in:
+- Create a project
+- Go into settings over here 
+![Settings](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/c475015d2d1872e244efe45897a25058a194719a/assets/images/heroku1.PNG)
+- Set up your config vars, KEY should be named CREDS and copy the creds.json file information into VALUE and save. 
+- Under that is buildpacks, add thease two in this order shown on the picture. 
+![Buildpack]()
+
 # Credits
 
 ## Code Used
