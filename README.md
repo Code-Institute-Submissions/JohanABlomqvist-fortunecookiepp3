@@ -112,7 +112,11 @@ To deploy on heroku once logged in:
 ![Settings](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/c475015d2d1872e244efe45897a25058a194719a/assets/images/heroku1.PNG)
 - Set up your config vars, KEY should be named CREDS and copy the creds.json file information into VALUE and save. 
 - Under that is buildpacks, add thease two in this order shown on the picture. 
-![Buildpack]()
+![Buildpack](https://github.com/JohanABlomqvist/fortunecookiepp3/blob/9085ed4e95801375846608b92b23dff39adb38fc/assets/images/heroku2.PNG)
+- Go to deploy and link your github account.
+- Then you can search within your repo's for the name of the project name you want to deploy.
+- Once connected to the repository of your choice you can either choose to manually deploy or enable automatic deploys.
+- Enjoy the app!
 
 # Credits
 
